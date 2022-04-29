@@ -26,5 +26,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.6e050961-f010-4653-b115-5ac3b9a55762}}
-          heroku_app_name: 'sarah-oo'
+          heroku_app_name: 'actioncopy'
           heroku_email: 'atul.gautam@vayuz.com'
