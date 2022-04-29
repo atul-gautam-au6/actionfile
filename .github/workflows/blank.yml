@@ -23,7 +23,7 @@ jobs:
     needs: [build]
     steps:
       - uses: actions/checkout@v2
-      - uses: Atul/heroku-deploy@v3.12.12
+      - uses: actioncopy/heroku-deploy@v3.12.12
         with:
           heroku_api_key: '6e050961-f010-4653-b115-5ac3b9a55762'
           heroku_app_name: 'actioncopy'
